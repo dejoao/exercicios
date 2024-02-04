@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /* 1 - Faça um algoritmo que leia os valores de A, B, C e em seguida imprima
+<<<<<<< HEAD
 na tela a soma entre A e B é mostre se a soma é menor que C. 
+=======
+na tela a soma entre A e B é mostre se a soma é menor que C. */
+>>>>>>> 9bbb0eb7a279d32bfdc87724ad4904f0bf78ba04
 
 int main(void) {
 
@@ -30,6 +34,7 @@ int main(void) {
     
     return 0;
 
+<<<<<<< HEAD
 } */
 
 /*2 - Faça um algoritmo para receber um número qualquer e imprimir na tela se o 
@@ -60,3 +65,7 @@ int main(void){
 
     return 0;
 }
+=======
+}
+
+>>>>>>> 9bbb0eb7a279d32bfdc87724ad4904f0bf78ba04
