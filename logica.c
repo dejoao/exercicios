@@ -31,7 +31,7 @@ int main(void) {
 }*/
 
 /*2 - Faça um algoritmo para receber um número qualquer e imprimir na tela se o 
-número é par ou ímpar, positivo ou negativo.*/
+número é par ou ímpar, positivo ou negativo.
 
 int main(void){
 
@@ -57,4 +57,27 @@ int main(void){
     }
 
     return 0;
+}*/
+
+/*3 Dada uma matriz de inteiros.
+
+Retorna uma matriz, onde o primeiro elemento é a contagem dos números positivos 
+e o segundo elemento é a soma dos números negativos. 0 não é positivo nem 
+negativo.
+
+Se a entrada for uma matriz vazia ou nula, retorne uma matriz vazia.*/
+
+int main(void)
+{
+    int m[15] = {1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15};
+    int i, j, s;
+
+    for (i = 0; i < 9; i++)
+    {
+    }
+    for ( j = 10; j < 15; j++)
+    {
+        s += m[j];
+    }
+     printf("%i %i", m[i], s);
 }
